@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio-Website</title>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+        <img src="images/mylogo.jpeg" class="logo">
+        <ul>
+          <li><a href="#">Home</a></li> 
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>  
+          <li><a href="#">portfolio</a></li> 
+          <li><a href="#">Contact</a></li>       
+        </ul>
+       </nav> 
+        <div class="header-text"><p>UI/UX Designer</p>
+            <h1>Hi, I am <span>Ekra</span> from <br> Bangladesh.</h1>
+        </div>
+    </div>
+    </div>
+    <!-- ----------------------------------------------------About--------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mypic2.jpg">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="subtitle">About Me</h1>
+                   <p>I am a Software Engineer Graduated from the University of Chittagong.I have much interest in web-development and related fields.</p>
+                   <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('exp')">Experience</p>
+                    <p class="tab-links" onclick="opentab('edu')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing</li>
+                        <li><span>Web Development</span><br>Designing</li>
+                        <li><span>Programming Skills</span><br>Designing</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="exp">
+                    <ul>
+                        <li><span>Kafco</span><br>Designing</li>
+                        <li><span>Cefalo</span><br>Designing</li>
+                        <li><span>NSI</span><br>Designing</li>
+                    </ul>
+                  </div>
+                  <div class="tab-contents" id="edu">
+                    <ul>
+                        <li><span>Undergraduate</span><br>5th semester,Computer Science and Engineering,University of Chittagong(Session-2020-21)</li>
+                        <li><span>HSC</span><br>Chittagong Govt. Women College (2020)</li>
+                        <li><span>SSC</span><br>Kapasgola City Corp. Girls High School (2018)</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------Services-------------------------- -------------->
+
+    <div class="services">
+       <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Designing</h2>
+                <p> i am  blah blah blah .......</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Designing</h2>
+                <p> i am  blah blah blah .......</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h2>App Designing</h2>
+                <p> i am  blah blah blah .......</p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+       </div>
+
+    </div>
+
+    <!-- ------------------Portfolio-------------------- -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Little Description about my app.</p>
+                        <a href="#"><i class="fa-brands fa-app-store"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Little Description about my app.</p>
+                        <a href="#"><i class="fa-brands fa-app-store"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Little Description about my app.</p>
+                        <a href="#"><i class="fa-brands fa-app-store"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+     </div>
+
+<!-- --------------------contact----------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ekrahumayratul@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 01840-571104</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100074602153062"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://github.com/EkraBD"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/humayratul-ekra-0b46282a6/"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div>
+                <a href="" class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Ekra. Made with  <i class="fa-regular fa-heart"></i> by easy Tutorials.</p>
+    </div>
+ </div>
+
+
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+       
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+
+    </script>
+    
+</body>
+</html>
